@@ -50,6 +50,9 @@
 # Avoid Devel::Cover and Devel::CoverX::Covered files.
 \bcover_db\b
 \bcovered\b
- 
+
+# Avoid prove files
+\B\.prove$
+
 # Avoid MYMETA files
 ^MYMETA\.
